@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1,minimum-scale=1,width=device-width">
+<!-- Javascript -->
+<script type="text/javascript" src="scripts/jquery-1.8.3.min.js"></script>
+<!-- Stylesheets -->
+<link rel="stylesheet" href="css/Main.css" type="text/css" media="screen" />
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="scripts/html5shiv.js"></script>
+<script type="text/javascript" src="scripts/selectivizr.js"></script>
+<script type="text/javascript" src="scripts/respond.js"></script>
+<![endif]-->
+<script>
+$(document).ready(function(){
+  $(".button").click(function(){
+    $(".NavigationLinks").toggle();
+  });
+});
+</script>
+</head>
+
+<body>
+<div class="MainContainer">
+  <div id="NavigationColumn" class="Col1">
+    <div class="Topsection">
+      <div class="SectionTile">Movies</div>
+      <div class="Closebttn"><img src="images/mobilebttn.png" width="5" height="29" class="button" alt=""/></div>
+    </div>
+    <div class="NavigationLinks">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Downloads</a></li>
+        <li><a href="#">My Account</a></li>
+      </ul>
+      <div class="SocialBlock">
+        <div class="TitleTxt">Follow Us</div>
+        <div><a href="#"><img src="images/fbicon.png" width="41" height="41" alt=""/></a>&nbsp;&nbsp;&nbsp;<a href="#"><img src="images/twittericon.png" width="41" height="41" alt=""/></a></div>
+      </div>
+      <div class="Logo"></div>
+    </div>
+  </div>
+  <div id="ContentColumn" class="Col2">
+    <div class="mainWrapper">
+      <div class="imgblock"><img src="images/movie-img-1.png" alt=""/></div>
+      <div class="imgblock"><img src="images/movie-img-2.png" alt=""/></div>
+      <div class="imgblock"><img src="images/movie-img-3.png" alt=""/></div>
+      <div class="imgblock"><img src="images/movie-img-4.png" alt=""/></div>
+      <div class="imgblock"><img src="images/movie-img-5.png" alt=""/></div>
+      <div class="imgblock"><img src="images/movie-img-1.png" alt=""/></div>
+      <div class="imgblock"><img src="images/movie-img-2.png" alt=""/></div>
+      <div class="imgblock"><img src="images/movie-img-3.png" alt=""/></div>
+      <div class="imgblock"><img src="images/movie-img-4.png" alt=""/></div>
+      <div class="imgblock"><img src="images/movie-img-5.png" alt=""/></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

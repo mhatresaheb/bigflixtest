@@ -1,0 +1,94 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+body { line-height: 1; }
+html { height: 100%; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+nav ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+a { margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+/* change colours to suit your needs */
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+/* change colours to suit your needs */
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+del { text-decoration: line-through; }
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+table { border-collapse: collapse; border-spacing: 0; }
+/* change border colour to suit your needs */
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #cccccc; margin: 1em 0; padding: 0; }
+input, select { vertical-align: middle; }
+.MainContainer { width: 100%; max-width: 1200px; height:100%; margin: 0 auto; position: relative; overflow: hidden; font-family: 'Roboto', sans-serif; }
+#NavigationColumn { position: relative; }
+.Topsection { background: url(../images/sidefix-pattern.jpg) left top repeat; overflow: hidden; }
+.SectionTile { float: left; color: #787878; background: url(../images/prev-btn.png) 14px center no-repeat; padding: 16px 0 16px 46px; font-size: 22px; }
+.Closebttn { float: right; padding: 13px; padding-right: 30px; padding-left: 0; }
+.NavigationLinks { position: absolute; top: 0; z-index: 1; background: url(../images/sidefix-pattern.jpg) left top repeat; width: 70%; display: none; }
+.NavigationLinks li { border-bottom: 1px solid #2d2d2d; }
+.NavigationLinks li a { padding: 22px 0 20px 45px; color: #d1d3d4; display: block; text-decoration: none; }
+.NavigationLinks li:nth-child(4n+1) { background: url(../images/m-icon-1.png) 12px center no-repeat; }
+.NavigationLinks li:nth-child(4n+2) { background: url(../images/m-icon-2.png) 12px center no-repeat; }
+.NavigationLinks li:nth-child(4n+3) { background: url(../images/m-icon-3.png) 12px center no-repeat; }
+.NavigationLinks li:nth-child(4n+4) { background: url(../images/m-icon-4.png) 12px center no-repeat; }
+.SocialBlock { padding: 18px 13px; }
+.TitleTxt { color: #d1d3d4; font-size: 20px; font-weight: 300; padding-bottom: 12px; }
+#ContentColumn { background-color: #d2d2d2; height:100%; }
+.mainWrapper { width: 99%; max-width: 1200px; margin: 0 auto; overflow: hidden; padding-top: 3%; }
+.imgblock { float: left; margin: 0.8%; width: 16.7%; border: 1px solid #f2f2f2; *zoom:1;}
+.imgblock img { width: 100%; height: 100%; float: left; }
+
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+.mainWrapper { width: 98%; margin: 0 auto; overflow: hidden; *zoom: 1;
+}
+.imgblock { float: left; margin-right: -100%; width: 45%; }
+.mainWrapper div:nth-child(2n+1) { margin-left: 3%; margin-bottom: 2%; clear: both; overflow: hidden; *zoom: 1; }
+.mainWrapper div:nth-child(2n+2) { margin-left: 51%; margin-bottom: 2%; clear: none; }
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+.mainWrapper { width: 90%; margin: 0 auto; overflow: hidden; *zoom: 1; }
+.imgblock { float: left; margin-right: -100%; width: 20.1%; }
+.mainWrapper div:nth-child(4n+1) { margin-left: 11%; margin-bottom: 2%; clear: both; overflow: hidden; *zoom: 1; }
+.mainWrapper div:nth-child(4n+2) { margin-left: 33%; margin-bottom: 2%; clear: none; }
+.mainWrapper div:nth-child(4n+3) { margin-left: 55%; margin-bottom: 2%; clear: none; }
+.mainWrapper div:nth-child(4n+4) { margin-left: 77%; margin-bottom: 2%; clear: none; }
+.Topsection { display:none; }
+.NavigationLinks { position: fixed; top: 0; z-index: 1; background: url(../images/sidefix-pattern.jpg) left top repeat; width:8.5%; display:block; float:left; height:100%; min-height:768px; }
+.NavigationLinks li {  text-align:center; border-bottom:none; }
+.NavigationLinks li a { padding:45px 10px 20px 10px; color: #6f6f6f; display: block; text-decoration: none; font-size:13px; font-weight:300;  }
+.NavigationLinks li a:hover { background:url(../images/back-bg.png) repeat; opacity: 0.8; filter: alpha(opacity=80); /* For IE8 and earlier */ color:#FFFFFF; }
+.NavigationLinks li:nth-child(4n+1) { background: url(../images/icon-1.png) center 10px no-repeat; }
+.NavigationLinks li:nth-child(4n+2) { background: url(../images/icon-2.png) center 10px no-repeat; }
+.NavigationLinks li:nth-child(4n+3) { background: url(../images/icon-5.png) center 10px no-repeat; }
+.NavigationLinks li:nth-child(4n+4) { background: url(../images/icon-6.png) center 10px no-repeat; }
+.SocialBlock { display:none; }
+.Logo { background:url(../images/logo.png) 15px center no-repeat; padding:50px; position:absolute; bottom:0; }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+.mainWrapper { width: 90%; margin: 0 auto; overflow: hidden; *zoom: 1; }
+.imgblock { float: left; margin-right: -100%; width: 28.1%; }
+.mainWrapper div:nth-child(3n+1) { margin-left: 11%; margin-bottom: 2%; clear: both; overflow: hidden; *zoom: 1; }
+.mainWrapper div:nth-child(3n+2) { margin-left: 41%; margin-bottom: 2%; clear: none; }
+.mainWrapper div:nth-child(3n+3) { margin-left: 71%; margin-bottom: 2%; clear: none; }
+.Topsection { display:none; }
+.NavigationLinks { position:fixed; top: 0; z-index: 1; background: url(../images/sidefix-pattern.jpg) left top repeat; width:10%; display:block; float:left; height:100%; min-height:1024px; }
+.NavigationLinks li {  text-align:center; border-bottom:none; }
+.NavigationLinks li a { padding:45px 10px 20px 5px; color: #6f6f6f; display: block; text-decoration: none; font-size:13px; font-weight:300;  }
+.NavigationLinks li a:hover { background:url(../images/back-bg.png) repeat; opacity: 0.8; filter: alpha(opacity=80); /* For IE8 and earlier */ color:#FFFFFF; }
+.NavigationLinks li:nth-child(4n+1) { background: url(../images/icon-1.png) center 10px no-repeat; }
+.NavigationLinks li:nth-child(4n+2) { background: url(../images/icon-2.png) center 10px no-repeat; }
+.NavigationLinks li:nth-child(4n+3) { background: url(../images/icon-5.png) center 10px no-repeat; }
+.NavigationLinks li:nth-child(4n+4) { background: url(../images/icon-6.png) center 10px no-repeat; }
+.SocialBlock { display:none; }
+.Logo { background:url(../images/logo.png) 12px center no-repeat; padding:50px; padding-bottom:15px; position:absolute; bottom:0; }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.mainWrapper { width: 98%; margin: 0 auto; overflow: hidden; *zoom: 1;
+}
+.imgblock { float: left; margin-right: -100%; width: 45%; }
+.mainWrapper div:nth-child(2n+1) { margin-left: 3%; margin-bottom: 2%; clear: both; overflow: hidden; *zoom: 1; }
+.mainWrapper div:nth-child(2n+2) { margin-left: 51%; margin-bottom: 2%; clear: none; }
+}
